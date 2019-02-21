@@ -714,6 +714,10 @@ export class ImageTest extends React.Component {
                     source={{ uri: "https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png" }}
                     resizeMode={resizeMode}
                 />
+
+                <Image source={undefined} />
+                <Image source={null} />
+                <Image />
             </View>
         );
     }
